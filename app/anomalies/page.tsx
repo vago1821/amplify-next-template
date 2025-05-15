@@ -163,14 +163,18 @@ export default function AnomaliesPage() {
       </div>
       <div className="images-section">
         <div className="image-container">
-          <div className="image-placeholder">
-            <span>Time Series Anomaly Chart</span>
-          </div>
+          <img 
+            src="/image1.png" 
+            alt="Time Series Anomaly Chart" 
+            className="anomaly-image"
+          />
         </div>
         <div className="image-container">
-          <div className="image-placeholder">
-            <span>Anomaly Distribution Graph</span>
-          </div>
+          <img 
+            src="/image2.png" 
+            alt="Anomaly Distribution Graph" 
+            className="anomaly-image image2"
+          />
         </div>
       </div>
     </div>

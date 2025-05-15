@@ -4,7 +4,7 @@ body {
 }
 
 .app-header {
-  background-color: #333;
+  background-color: #3b0df6;
   color: white;
   padding: 0 20px;
   height: 40px;
@@ -32,7 +32,7 @@ body {
 }
 
 .nav-link:hover {
-  background-color: #444;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .app-main {
