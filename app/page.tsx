@@ -93,7 +93,7 @@ export default function HomePage() {
       <div className="image-section">
         <h1 className="image-title">Epsilon Quality Guard</h1>
         <img 
-          src="/image1.png" 
+          src="/image.png" 
           alt="Data Visualization" 
           className="main-image"
         />
