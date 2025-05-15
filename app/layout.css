@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app-header {
+  background-color: #333;
+  color: white;
+  padding: 0 20px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.app-header nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.nav-link:hover {
+  background-color: #444;
+}
+
+.app-main {
+  padding-top: 40px;
+  height: calc(100vh - 40px);
+}
